@@ -1,0 +1,5 @@
+# ninja log v5
+1081	1141	1673882527903466381	knn_sandbox	99b5b3603e0dc996
+1	1079	1673882527839050778	CMakeFiles/knn_sandbox.dir/src/knn_sandbox.cpp.o	aa26275708cac6a1
+1	122	1674251144141094252	build.ninja	d4ef169beeff8219
+0	5	0	clean	3c8e6cc385ee00ba

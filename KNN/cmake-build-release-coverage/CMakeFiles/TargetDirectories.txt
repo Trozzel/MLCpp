@@ -1,0 +1,4 @@
+/Users/jorge/Cpp/MachineLearning/YouTube/KNN/cmake-build-release-coverage/CMakeFiles/knn.dir
+/Users/jorge/Cpp/MachineLearning/YouTube/KNN/cmake-build-release-coverage/CMakeFiles/knn_sandbox.dir
+/Users/jorge/Cpp/MachineLearning/YouTube/KNN/cmake-build-release-coverage/CMakeFiles/edit_cache.dir
+/Users/jorge/Cpp/MachineLearning/YouTube/KNN/cmake-build-release-coverage/CMakeFiles/rebuild_cache.dir

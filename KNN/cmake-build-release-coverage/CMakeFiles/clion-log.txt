@@ -1,0 +1,4 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/ninja "-DCMAKE_CXX_FLAGS=-fprofile-instr-generate -fcoverage-mapping" "-DCMAKE_C_FLAGS=-fprofile-instr-generate -fcoverage-mapping" -G Ninja -S /Users/jorge/Cpp/MachineLearning/YouTube/KNN -B /Users/jorge/Cpp/MachineLearning/YouTube/KNN/cmake-build-release-coverage
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/jorge/Cpp/MachineLearning/YouTube/KNN/cmake-build-release-coverage

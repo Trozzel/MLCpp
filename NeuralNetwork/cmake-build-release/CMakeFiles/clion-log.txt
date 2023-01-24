@@ -1,0 +1,4 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/ninja -G Ninja -S /Users/jorge/Cpp/MachineLearning/YouTube/NeuralNetwork -B /Users/jorge/Cpp/MachineLearning/YouTube/NeuralNetwork/cmake-build-release
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/jorge/Cpp/MachineLearning/YouTube/NeuralNetwork/cmake-build-release

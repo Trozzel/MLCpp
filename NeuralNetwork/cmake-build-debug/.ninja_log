@@ -1,0 +1,7 @@
+# ninja log v5
+19	723	1674316347433844557	CMakeFiles/NeuralNetwork.dir/src/main.cpp.o	e0bf40e4c098de52
+723	820	1674316347533209219	NeuralNetwork	9def3c9996bc9550
+20	501	1674316347210956599	CMakeFiles/NeuralNetwork.dir/src/Neuron.cpp.o	7d3fc9c21d7849c0
+22	1272	1674334570826268381	CMakeFiles/NeuralNetwork.dir/src/Neuron.cpp.o	a3b1b2c31da1f236
+19	1363	1674334570919831874	CMakeFiles/NeuralNetwork.dir/src/main.cpp.o	a3ec487d364c468b
+1363	1469	1674334571029061482	NeuralNetwork	9def3c9996bc9550
