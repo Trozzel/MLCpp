@@ -3,7 +3,7 @@
 // CTOR
 /**************************************************************************/
 Layer::Layer(int prevLayerSz, int curLayerSz, ActivationType activationType) : 
-	_activator(activationType) 
+	_activationType(activationType) 
 {
 	for (int i = 0; i < curLayerSz ; ++i) {
 		_neurons->emplace_back(prevLayerSz);
@@ -11,14 +11,14 @@ Layer::Layer(int prevLayerSz, int curLayerSz, ActivationType activationType) :
 }
 // COPY CTOR
 /**************************************************************************/
-Layer::Layer(const Layer& other) : _activator(other._activator){
+Layer::Layer(const Layer& other) : _activationType(other._activationType){
 		std::vector<Neuron>* neurons = new std::vector(*other._neurons);
 		_neurons.reset(neurons); // deletes pervious vector<Neuron> and manages new vector<Neuron>
 }
 
 // MOVE CTOR
 /**************************************************************************/
-Layer::Layer(Layer&& other) : _activator(other._activator){
+Layer::Layer(Layer&& other) : _activationType(other._activationType){
 		// NOTE: unique_ptr::release sets pointer to nullptr and calls to destructor of managed object
 		_neurons.reset(other._neurons.release());
 	}
@@ -42,5 +42,6 @@ Layer& Layer::operator=(Layer&& other) {
 	_neurons.reset(other._neurons.release());
 	return *this;
 }
+
 
 

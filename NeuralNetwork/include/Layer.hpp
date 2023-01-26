@@ -14,7 +14,8 @@ static int layerId {0};
 /******************************************************************************/
 class  Layer {
 private:
-	ActivationType _activator = ActivationType::Relu;
+	ActivationType _activationType = ActivationType::Relu;
+	std::unique_ptr<Activator> _activator;
 	std::unique_ptr<std::vector<Neuron>> _neurons{new std::vector<Neuron>};
 
 public:
@@ -49,11 +50,11 @@ public:
 
 	// GET ACTIVATOR
 	/**************************************************************************/
-	ActivationType activator() const { return _activator;}
+	auto& activator() const { return _activator;}
 	// SET ACTIVAION TYPE
 	/**************************************************************************/
 	void activationType(ActivationType activationType) {
-		_activator = activationType;
+		_activationType = activationType;
 	}
 	// GET CONST NEURONS
 	/**************************************************************************/
