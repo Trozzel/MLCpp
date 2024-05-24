@@ -5,6 +5,7 @@
 Layer::Layer(int prevLayerSz, int curLayerSz, ActivationType activationType) : 
 	_activationType(activationType) 
 {
+	
 	for (int i = 0; i < curLayerSz ; ++i) {
 		_neurons->emplace_back(prevLayerSz);
 	}
